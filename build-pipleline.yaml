@@ -6,7 +6,7 @@ pool:
   
 steps:
 - scripts: echo Hello!
-  displayName: 'Run a one line scripts
+  displayName: 'Run a one line scripts'
   
 - scripts: |
     echo add a multiline
