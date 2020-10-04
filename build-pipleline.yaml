@@ -1,0 +1,15 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+  
+steps:
+- scripts: echo Hello!
+  displayName: 'Run a one line scripts
+  
+- scripts: |
+    echo add a multiline
+    echo one more line
+  displayname: 'Run a multiline '
+  
